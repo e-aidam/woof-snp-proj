@@ -7,9 +7,6 @@ For the project, the Sequence Read Archive (SRA) item with ID SRX9665373 is anal
 
 To download the data, first, you should install the sra-tools toolkit. It can be done with the conda: use command conda install -c bioconda sra-tools. sra-tools can also be installed directly from the sra-tools GitHub page. After installation, start the data download with prefetch, using the sample SRR run. Then use the fastqer-dump tool to split the files, which is essential for paired-end reads to separate the files. Also, add the gzip option to save disk space. So, the fastqer-dump command to use is fastqer-dump. You can try other instruments to download the data from SRA, like fast-dump or parallel-fastq-dump.
 
-
-
-
 # Creating new virtual environment
 $ conda create --name woof-snp-proj
 $ conda activate woof-snp-proj
