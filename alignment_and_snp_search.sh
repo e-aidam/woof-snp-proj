@@ -14,9 +14,6 @@ $ rm aligned_data.sam
 # Checking alginment statistics
 $ samtools flagstat aligned_data.bam
 
-
-After that, import your data and find the SNP with the IGV web application. A familiar biologist suggested, that the SNP of interest is located in one of the exons of chromosome 31, approximately between the positions 26,658,238 and 26,660,830. The SNP of interest is G to A change.
-
 # Indexing reference genome and alignment data for them to be viewed on IGV web application (https://igv.org/)
 $ ls
 $ samtools faidx Canis_lupus_familiaris.ROS_Cfam_1.0.dna.primary_assembly.31.fa
